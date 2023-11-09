@@ -1,19 +1,21 @@
 {
   "name": "bully-the-bot",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "type": "commonjs", 
+  "description": "WTF is liran doing here?",
+  "main": "src/index.ts",
+  "repository": "https://github.com/LiranBratt2121/bully-the-bot.git",
+  "author": "Liran1943",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node ."
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
+    "@discordjs/builders": "^1.6.5",
+    "@discordjs/rest": "^2.0.1",
+    "@types/node": "^20.8.10",
+    "discord-api-types": "^0.37.62",
     "discord.js": "^14.13.0",
-    "discord.js-commando": "^0.12.3",
     "dotenv": "^16.3.1",
-    "tba-api-v3client": "^3.3.1"
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
   }
 }
