@@ -3,8 +3,8 @@ import { IBot, ISlashCommand } from '../../utils/interfaces';
 import { randomTeamName } from '../../utils/tba';
 
 module.exports = {
-    name: 'change',
-    description: 'Change a user\'s nickname to a random team name every 10 seconds.',
+    name: 'bully',
+    description: 'Bully & Change a user\'s nickname to a random team name every 10 seconds.',
     devOnly: false,
     executerPermissions: ['SendMessages'],
     botPermissions: ['SendMessages'],
